@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		E7D8C9E72175866200844020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D8C9E62175866200844020 /* AppDelegate.swift */; };
-		E7D8C9E92175866200844020 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D8C9E82175866200844020 /* ViewController.swift */; };
 		E7D8C9EC2175866200844020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D8C9EA2175866200844020 /* Main.storyboard */; };
 		E7D8C9EE2175866500844020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D8C9ED2175866500844020 /* Assets.xcassets */; };
 		E7D8C9F12175866500844020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D8C9EF2175866500844020 /* LaunchScreen.storyboard */; };
+		E7D8C9F9217586F100844020 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D8C9F8217586F100844020 /* menuViewController.swift */; };
+		E7D8CA032175AA1700844020 /* meViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D8CA022175AA1700844020 /* meViewController.swift */; };
+		E7D8CA052175AA9900844020 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D8CA042175AA9900844020 /* loginViewController.swift */; };
+		E7D8CA072175AAC000844020 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D8CA062175AAC000844020 /* registerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E7D8C9E32175866200844020 /* 大创.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "大创.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D8C9E62175866200844020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E7D8C9E82175866200844020 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E7D8C9EB2175866200844020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7D8C9ED2175866500844020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7D8C9F02175866500844020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7D8C9F22175866500844020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D8C9F8217586F100844020 /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		E7D8CA022175AA1700844020 /* meViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meViewController.swift; sourceTree = "<group>"; };
+		E7D8CA042175AA9900844020 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		E7D8CA062175AAC000844020 /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,10 @@
 		E7D8C9DA2175866200844020 = {
 			isa = PBXGroup;
 			children = (
+				E7D8C9FD2175871B00844020 /* 脑洞大开 */,
+				E7D8C9FC2175871200844020 /* 志愿服务区 */,
+				E7D8C9FB2175870800844020 /* 我的 */,
+				E7D8C9FA217586F700844020 /* 主菜单 */,
 				E7D8C9E52175866200844020 /* 大创.2 */,
 				E7D8C9E42175866200844020 /* Products */,
 			);
@@ -55,13 +65,44 @@
 			isa = PBXGroup;
 			children = (
 				E7D8C9E62175866200844020 /* AppDelegate.swift */,
-				E7D8C9E82175866200844020 /* ViewController.swift */,
 				E7D8C9EA2175866200844020 /* Main.storyboard */,
 				E7D8C9ED2175866500844020 /* Assets.xcassets */,
 				E7D8C9EF2175866500844020 /* LaunchScreen.storyboard */,
 				E7D8C9F22175866500844020 /* Info.plist */,
 			);
 			path = "大创.2";
+			sourceTree = "<group>";
+		};
+		E7D8C9FA217586F700844020 /* 主菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				E7D8C9F8217586F100844020 /* menuViewController.swift */,
+			);
+			path = "主菜单";
+			sourceTree = "<group>";
+		};
+		E7D8C9FB2175870800844020 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				E7D8CA022175AA1700844020 /* meViewController.swift */,
+				E7D8CA042175AA9900844020 /* loginViewController.swift */,
+				E7D8CA062175AAC000844020 /* registerViewController.swift */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		E7D8C9FC2175871200844020 /* 志愿服务区 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "志愿服务区";
+			sourceTree = "<group>";
+		};
+		E7D8C9FD2175871B00844020 /* 脑洞大开 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "脑洞大开";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7D8C9E92175866200844020 /* ViewController.swift in Sources */,
+				E7D8CA052175AA9900844020 /* loginViewController.swift in Sources */,
 				E7D8C9E72175866200844020 /* AppDelegate.swift in Sources */,
+				E7D8CA032175AA1700844020 /* meViewController.swift in Sources */,
+				E7D8CA072175AAC000844020 /* registerViewController.swift in Sources */,
+				E7D8C9F9217586F100844020 /* menuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
